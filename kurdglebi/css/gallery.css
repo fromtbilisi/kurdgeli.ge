@@ -1,0 +1,125 @@
+
+
+
+/* ==========================================================================
+   Global styles starts here
+   ========================================================================== */
+
+
+body{
+   font-size: 18px; background: #cfcfcf;
+}
+h1, h2, h3, h4, h5, h6{
+    font-family: 'open_sansbold'; margin: 0;
+}
+h1{}
+h2{}
+h3{}
+h4{}
+h5{}
+h6{}
+
+.wrapper-blue{
+    background-color: #00173f;  
+}
+.ruler{border-top: 1px solid #17284c;}
+p{ font-family: 'open_sansregular'; font-size: 14px; line-height: 22px; color: #9b9b9b; padding-bottom: 25px; margin-bottom: 0;}
+.last{padding-bottom: 0;}
+.spacing-t{padding-top: 30px;}
+.spacing-b{padding-bottom: 30px;}
+.spacing-l{padding-left: 30px;}
+.spacing-r{padding-right: 30px;}
+.icon{color: #d80112; margin-right: 5px;}
+.readmore{color: #178ce6; text-transform: uppercase; line-height: 1px; font-family: 'open_sansbold';}
+.readmore:hover{color: #d80112; text-decoration: none;}@import url(https://fonts.googleapis.com/css?family=Roboto:400,300,600,400italic);
+@charset "utf-8";
+
+
+
+html, body, div, h3, p, ul, li, img {
+	margin: 0;
+	padding: 0;
+}
+
+article, aside, figure; footer; header; hgroup;
+menu, nav, section {display: block;}
+
+body {
+	background:#969fab;
+	font-family: "trebuchet Ms", Arial, Helvetica, sans-serif;
+
+}
+
+.container{
+	width: 700px;
+	margin: auto 0;
+}
+
+header{
+	background:#42517f;
+	border-bottom:1px solid #000;
+}
+
+
+header h3 {
+	color: #fff;
+	text-align: center;
+	padding-top: 3px;
+	padding-bottom: 3px;
+	font-size: 16px;
+	word-spacing: 1px;
+	text-shadow: 1px 1px 2px #000;
+}
+
+#content {
+	background: #848c9c;
+	background: linear-gradient (to top, #848c9c 0%, #687080 50%, #a7b1c5 100%)
+	background:  -webkit-linear-gradient (bottom, #848c9c 0%, #687080 50%, #a7b1c5 100%)
+	padding-top: 30px;
+	padding-bottom: 30px;
+	overflow: hidden;
+}
+
+.gallery {
+	width: 528px;
+	margin: auto;
+	
+
+}
+
+.gallery ul {
+	list-style: none;
+}
+
+.gallery li {
+	float: left;
+	margin: 10px;
+}
+
+.gallery img {
+	display: inline-block;
+	padding: 3px;
+	background: #42517f;
+	border: 1px solid #99adeb;
+	box-shadow: 1px 1px 2px #000;
+	width: 100px;
+	height: 100px;
+}
+
+.gallery img:hover {
+	border: 1px solid #fff;
+
+}
+
+footer{
+	background: #222222;
+}
+
+footer p {
+	color: #fff;
+	text-align: center;
+	font-size: 11px;
+	padding-top: 2px;
+	padding-bottom: 2px;
+}
+
